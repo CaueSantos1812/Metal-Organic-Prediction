@@ -1,5 +1,5 @@
 # Metal-Organic-Prediction
-## Autores: Cauê Santos, Izaque Júnior, Karla Pascoalini
+## Autores: Cauê Santos, Izaque Junior, Karla Pascoalini
 
 Este é o read-me (PROVISÓRIO) do nosso trabalho de redes neurais e algorítimo genético!
 
