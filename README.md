@@ -24,7 +24,7 @@ A estrutura desse repositório é em partes complexa, visto que o dataset utiliz
 
 - **dados_teste e dados_treino:** São os datasets utilizados para treino e teste da rede neural.
 - **cod_izaque.py:** Código desenvolvido pelos membros para tratamento de dados
-- **Trab_Fin.ipynb:**  Notebook oficial que apresenta a rede neural MLP com seu treinamento e teste, além da otimização de hiperparâmetros e tratamento de dados (Como redução de dimensionalidade com o VIF).
+- **MLP_MOFs.ipynb:**  Notebook oficial que apresenta a rede neural MLP com seu treinamento e teste, além da otimização de hiperparâmetros e tratamento de dados (Como redução de dimensionalidade com o VIF).
 - **merged_train_VIF.csv:** Dataset que concatenou os datasets de treino RAC e Finger já tratados com o VIF, esse dataset foi feito com o intuito de aumentar a quantidade de atributos necessários para previsão de temperatura e tempo.
 
 ## Requisitos para rodar o código
@@ -42,6 +42,12 @@ A estrutura desse repositório é em partes complexa, visto que o dataset utiliz
 
 ## Conclusão
 Podemos observar que, ao utilizar de uma rede neural do tipo MLP para prever a temperatura e tempo de síntese de materiais organo-metálicos, nós obtivemos um resultado de RMSE alto, que não era o esperado. Portanto, o modelo de rede neural de MLP pode não ser o melhor modelo de previsão desses atributos para esse dataset. Uma perspectiva futura de melhoria para esse trabalho seria procurar outras técnicas de machine learning (KNN, RFR, ...) ou outros tipos de redes neurais para prever com uma precisão maior dos resultados.
+
+## Agradecimentos finais:
+
+- **Daniel Cassar:** Nosso professor, que nos orientou para realizar o trabalho
+- **Andrej Karpathy:** Pelos vídeos completos e excelentes que nos auxiliou para resolução e entendimento do trabalho
+- **Mell e Laika:** Que são animais de estimação de integrantes do grupo, auxiliaram com apoio emocional e no processo de debugar o código
 
 ## Referências
 [1] MOLSimplify Documentation. Available at: https://molsimplify.readthedocs.io/en/latest/Informatics.html. Accessed on: 20 May 2024. <br>
