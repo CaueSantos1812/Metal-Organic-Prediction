@@ -24,7 +24,7 @@ A estrutura desse repositório é em partes complexa, visto que o dataset utiliz
 
 - **dados_teste e dados_treino:** São os datasets utilizados para treino e teste da rede neural.
 - **cod_izaque.py:** Código desenvolvido pelos membros para tratamento de dados
-- **Trab_Final.ipynb:**  Notebook oficial que apresenta a rede neural MLP com seu treinamento e teste, além da otimização de hiperparâmetros e tratamento de dados (Como redução de dimensionalidade com o VIF).
+- **Trab_Fin.ipynb:**  Notebook oficial que apresenta a rede neural MLP com seu treinamento e teste, além da otimização de hiperparâmetros e tratamento de dados (Como redução de dimensionalidade com o VIF).
 - **merged_train_VIF.csv:** Dataset que concatenou os datasets de treino RAC e Finger já tratados com o VIF, esse dataset foi feito com o intuito de aumentar a quantidade de atributos necessários para previsão de temperatura e tempo.
 
 ## Requisitos para rodar o código
