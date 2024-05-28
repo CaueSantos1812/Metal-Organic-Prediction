@@ -16,7 +16,8 @@ Os inputs que utilizaremos são de um dataset chamado FingerPrint, cujo as featu
 Os outputs desejados são: Temperatura [Temperatura de síntese de MOFs]; e Tempo [Tempo de síntese de MOFs].
 
 ## Motivação
-# IZAQUE ESCREVA A MOTIVAÇÃO AQUI CASO QUEIRA. SE NÃO, APAGA ESSA PARTE
+Metal-organic frameworks (MOFs) são uma classe de materiais nanoporosos com química e forma dos poros bem definidos. Compostos por "nodos" inorgânicos (íons metálicos ou pequenos óxidos metálicos) e "ligantes" orgânicos em diferentes quadros de topologias, levando a um design de combinação espacial. [15]. Esse tipo de material possui aplicações em diversas áreas como estocagem de combustíveis gasosos, separações não destiláveis e catálise seletiva.[14]. 
+Devido à uma ampla gama de diferentes MOFs que podem ser sintetizados, o uso de técnicas computacionais que tentem prever condições de síntese, tais como temperatura e tempo de síntese, se fazem necessárias.[14]
 
 ##  Estrutura do Repositório
 A estrutura desse repositório é em partes complexa, visto que o dataset utilizado, que até então seria de configuração eletrônica foi ampliado com outros atributos e, no próprio kaggle do dataset original, os df de treino e teste já estavam separados. 
@@ -56,3 +57,5 @@ A estrutura desse repositório é em partes complexa, visto que o dataset utiliz
 [11] Cassar, Daniel Roberto. Notebook 5.3: PyThorch Lightning. <br>
 [12] Cassar, Daniel Roberto. Notebook 8: Seleção de Atributos e redução de dimensionalidade. <br>
 [13] KAGGLE. Rac predicts temperature using LSTM. Available at: https://www.kaggle.com/code/marquis03/rac-predicts-temperature-using-lstm. Accessed on: 19 May 2024. <br>
+[14] SNRR, Randall Q.; COLÓN, Yamil J.; GÓMEZ-GUALDRÓN, Diego A. Topologically Guided, Automated Construction of Metal−Organic Frameworks and Their Evaluation for Energy-Related Applications. ACS, 2017. <br>
+[15] BUCIOR, Benjamin J.; ROSEN, Andrew S.; HARANCZYK, Maciej; YAO, Zhenpeng; ZIEBEL, Michael E.; FARHA, Omar K.; HUPP, Joseph T.; SIEPMANN, J. Ilja; ASPURU-GUZIK, Alan; SNRR, Randall Q. Identification Schemes for Metal−Organic Frameworks To Enable Rapid Search and Cheminformatics Analysis. ACS, 2019. <br>
