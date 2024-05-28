@@ -24,7 +24,7 @@ A estrutura desse repositório é em partes complexa, visto que o dataset utiliz
 
 - **dados_teste e dados_treino:** São os datasets utilizados para treino e teste da rede neural.
 - **cod_izaque.py:** Código desenvolvido pelos membros para tratamento de dados
-- **HPC_NN_trabalho_Metal_Organic_Frame_Materials_Prediction.ipynb:**  Notebook oficial que apresenta a rede neural MLP com seu treinamento e teste, além da otimização de hiperparâmetros e tratamento de dados (Como redução de dimensionalidade com o VIF).
+- **Trab_Final.ipynb:**  Notebook oficial que apresenta a rede neural MLP com seu treinamento e teste, além da otimização de hiperparâmetros e tratamento de dados (Como redução de dimensionalidade com o VIF).
 - **merged_train_VIF.csv:** Dataset que concatenou os datasets de treino RAC e Finger já tratados com o VIF, esse dataset foi feito com o intuito de aumentar a quantidade de atributos necessários para previsão de temperatura e tempo.
 
 ## Requisitos para rodar o código
@@ -38,10 +38,10 @@ A estrutura desse repositório é em partes complexa, visto que o dataset utiliz
 - **torch:** Biblioteca utilizada para criação do modelo de NN
 - **matplotlib:** Biblioteca usada para plotar gráficos
 - **lightning:** Biblioteca usada para treinamentos de modelos flexíveis do Pytorch 
-- **pickle:** 
+- **pickle:** Biblioteca usada pois implementa protocolos binários para serializar e desserializar uma estrutura de objeto Python
 
 ## Conclusão
-
+Podemos observar que, ao utilizar de uma rede neural do tipo MLP para prever a temperatura e tempo de síntese de materiais organo-metálicos, nós obtivemos um resultado de RMSE alto, que não era o esperado. Portanto, o modelo de rede neural de MLP pode não ser o melhor modelo de previsão desses atributos para esse dataset. Uma perspectiva futura de melhoria para esse trabalho seria procurar outras técnicas de machine learning (KNN, RFR, ...) ou outros tipos de redes neurais para prever com uma precisão maior dos resultados.
 
 ## Referências
 [1] MOLSimplify Documentation. Available at: https://molsimplify.readthedocs.io/en/latest/Informatics.html. Accessed on: 20 May 2024. <br>
@@ -56,6 +56,6 @@ A estrutura desse repositório é em partes complexa, visto que o dataset utiliz
 [10] Cassar, Daniel Roberto. Notebook 2.1: Tipos de Dados. <br>
 [11] Cassar, Daniel Roberto. Notebook 5.3: PyThorch Lightning. <br>
 [12] Cassar, Daniel Roberto. Notebook 8: Seleção de Atributos e redução de dimensionalidade. <br>
-[13] KAGGLE. Rac predicts temperature using LSTM. Available at: https://www.kaggle.com/code/marquis03/rac-predicts-temperature-using-lstm. Accessed on: 19 May 2024. <br>
+[13] PYTHON. Pickle — Python object serialization. Available at: https://docs.python.org/pt-br/3/library/pickle.html. Accessed on: 27 May 2024. <br>
 [14] SNRR, Randall Q.; COLÓN, Yamil J.; GÓMEZ-GUALDRÓN, Diego A. Topologically Guided, Automated Construction of Metal−Organic Frameworks and Their Evaluation for Energy-Related Applications. ACS, 2017. <br>
 [15] BUCIOR, Benjamin J.; ROSEN, Andrew S.; HARANCZYK, Maciej; YAO, Zhenpeng; ZIEBEL, Michael E.; FARHA, Omar K.; HUPP, Joseph T.; SIEPMANN, J. Ilja; ASPURU-GUZIK, Alan; SNRR, Randall Q. Identification Schemes for Metal−Organic Frameworks To Enable Rapid Search and Cheminformatics Analysis. ACS, 2019. <br>
