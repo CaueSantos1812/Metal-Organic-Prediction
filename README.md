@@ -3,7 +3,7 @@
 
 ## Introdução:
 
-Este é o read-me do nosso trabalho de redes neurais e algorítimo genético!
+Este é o read-me do nosso trabalho de redes neurais!
 
 Neste trabalho iremos trabalhar com o data set _Metal-Organic Frame Materials Prediction_ 
 
