@@ -16,9 +16,15 @@ Os inputs que utilizaremos são de um dataset chamado FingerPrint, cujo as featu
 Os outputs desejados são: Temperatura [Temperatura de síntese de MOFs]; e Tempo [Tempo de síntese de MOFs].
 
 ## Motivação
+# IZAQUE ESCREVA A MOTIVAÇÃO AQUI CASO QUEIRA. SE NÃO, APAGA ESSA PARTE
 
 ##  Estrutura do Repositório
 A estrutura desse repositório é em partes complexa, visto que o dataset utilizado, que até então seria de configuração eletrônica foi ampliado com outros atributos e, no próprio kaggle do dataset original, os df de treino e teste já estavam separados. 
+
+- **dados_teste e dados_treino:** São os datasets utilizados para treino e teste da rede neural.
+- **cod_izaque.py:** Código desenvolvido pelos membros para tratamento de dados
+- **HPC_NN_trabalho_Metal_Organic_Frame_Materials_Prediction.ipynb:**  Notebook oficial que apresenta a rede neural MLP com seu treinamento e teste, além da otimização de hiperparâmetros e tratamento de dados (Como redução de dimensionalidade com o VIF).
+- **merged_train_VIF.csv:** Dataset que concatenou os datasets de treino RAC e Finger já tratados com o VIF, esse dataset foi feito com o intuito de aumentar a quantidade de atributos necessários para previsão de temperatura e tempo.
 
 ## Requisitos para rodar o código
 
@@ -34,7 +40,6 @@ A estrutura desse repositório é em partes complexa, visto que o dataset utiliz
 - **pickle:** 
 
 ## Conclusão
-
 
 
 ## Referências
