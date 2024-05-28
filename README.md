@@ -1,7 +1,9 @@
 # Metal-Organic-Prediction
 ## Autores: Cauê Santos, Izaque Junior, Karla Pascoalini
 
-Este é o read-me (PROVISÓRIO) do nosso trabalho de redes neurais e algorítimo genético!
+## Introdução:
+
+Este é o read-me do nosso trabalho de redes neurais e algorítimo genético!
 
 Neste trabalho iremos trabalhar com o data set _Metal-Organic Frame Materials Prediction_ 
 
@@ -12,3 +14,37 @@ Esse tipo de previsão de síntese de MOFs se constitui a partir de um projeto d
 Os inputs que utilizaremos são de um dataset chamado FingerPrint, cujo as features são: 1s - 5f [Configuração eletrônica]; metal [Tipo de metal do MOF]; linker1smi [Formula estrutural para o linker1, é uma expressão estrutural do MOF]; e oxidation_state [Estados de oxidação do metal nodal].
 
 Os outputs desejados são: Temperatura [Temperatura de síntese de MOFs]; e Tempo [Tempo de síntese de MOFs].
+
+## Requisitos para rodar o código
+
+- **pandas:** Biblioteca para tratamento e anBálise de dados
+- **optuna:** Biblioteca usada para otimização de hiperparâmetros
+- **numpy:** Biblioteca usada para criar arrays
+- **cod_izaque:** Import de funções para tratamento de dados
+- **rdkit:** Biblioteca usada para retirar informações e propriedades dos MOFs
+- **sklearn:** Biblioteca usada para tratamento de dados, como split de dados e normalização
+- **torch:** Biblioteca utilizada para criação do modelo de NN
+- **matplotlib:** Biblioteca usada para plotar gráficos
+- **lightning:** Biblioteca usada para treinamentos de modelos flexíveis do Pytorch 
+
+
+import pickle
+
+## O que é o dataset de Metal-Organic Frameworks?
+
+## Conclusão
+
+## Referências
+[1] MOLSimplify Documentation. Available at: https://molsimplify.readthedocs.io/en/latest/Informatics.html. Accessed on: 20 May 2024.
+[2] KAGGLE. Rac predicts time using RF. Available at: https://www.kaggle.com/code/marquis03/rac-predicts-time-using-rf. Accessed on: 19 May 2024.
+[3]OYERINDE, Akinyemi B.; RICHARDS, Graham J. Supramolecular chemistry in two-dimensional organic materials: the role of intermolecular interactions. Coordination Chemistry Reviews, v. 474, p. 214781, 2023. Available at: https://www.sciencedirect.com/science/article/pii/S0010854523001017#b0095. Accessed on: 20 May 2024.
+[4] CLAY, Rachael; ANDERSON, Perry A.; KELLY, Scott. Thermodynamic properties of ionic liquids: A critical review. Journal of Chemical & Engineering Data, v. 64, n. 12, p. 5211-5231, 2019. Available at: https://pubs.acs.org/doi/epdf/10.1021/acs.jced.9b00835. Accessed on: 20 May 2024.
+[5] Computation-Ready, Experimental Metal–Organic Framework (CORE-MOF) 2.0. Northwestern Scholars. Available at: https://www.scholars.northwestern.edu/en/datasets/computation-ready-experimental-metal-organic-framework-core-mof-2. Accessed on: 25 May 2024.
+[6] LI, Hui; XU, Bo; ZHOU, Wei. Rational design of metal–organic frameworks for heterogeneous catalysis. Angewandte Chemie International Edition, v. 61, n. 15, p. e202200242, 2022. Available at: https://onlinelibrary.wiley.com/doi/epdf/10.1002/anie.202200242. Accessed on: 19 May 2024.
+[7] ZHANG, Q.; YANG, X.; CHEN, Y. Exploring the electronic structures of covalent organic frameworks. Chemical Science, v. 11, p. 10579-10586, 2020. Available at: https://www.rsc.org/suppdata/d0/sc/d0sc05337f/d0sc05337f1.pdf. Accessed on: 20 May 2024.
+[8] OPTUNA Documentation. Available at: https://optuna.readthedocs.io/en/stable/. Accessed on: 27 May 2024.
+[9] OPTUNA GitHub Repository. Available at: https://github.com/optuna/optuna. Accessed on: 27 May 2024.
+[10] Cassar, Daniel Roberto. Notebook 2.1: Tipos de Dados.
+[11] Cassar, Daniel Roberto. Notebook 5.3: PyThorch Lightning.
+[12] Cassar, Daniel Roberto. Notebook 8: Seleção de Atributos e redução de dimensionalidade.
+[13] KAGGLE. Rac predicts temperature using LSTM. Available at: https://www.kaggle.com/code/marquis03/rac-predicts-temperature-using-lstm. Accessed on: 19 May 2024.
