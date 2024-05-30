@@ -66,3 +66,5 @@ Podemos observar que, ao utilizar de uma rede neural do tipo MLP para prever a t
 [14] SNRR, Randall Q.; COLÓN, Yamil J.; GÓMEZ-GUALDRÓN, Diego A. Topologically Guided, Automated Construction of Metal−Organic Frameworks and Their Evaluation for Energy-Related Applications. ACS, 2017. <br>
 [15] BUCIOR, Benjamin J.; ROSEN, Andrew S.; HARANCZYK, Maciej; YAO, Zhenpeng; ZIEBEL, Michael E.; FARHA, Omar K.; HUPP, Joseph T.; SIEPMANN, J. Ilja; ASPURU-GUZIK, Alan; SNRR, Randall Q. Identification Schemes for Metal−Organic Frameworks To Enable Rapid Search and Cheminformatics Analysis. ACS, 2019. <br>
 [16] Andrej Karpathy. 2023. Playlist de vídeos. Disponível em: https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ. Acesso em: 20 maio 2024. <br>
+[17] Lightning Documentation, Available at: https://lightning.ai/docs/pytorch/stable/. Acessed on: 20 may 2024 <br>
+[18] Pytorch Discussion: https://discuss.pytorch.org/t/how-to-create-mlp-model-with-arbitrary-number-of-hidden-layers/13124. Acessed on: 20 may 2024<br>
