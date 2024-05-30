@@ -23,7 +23,7 @@ Devido à uma ampla gama de diferentes MOFs que podem ser sintetizados, o uso de
 A estrutura desse repositório é em partes complexa, visto que o dataset utilizado, que até então seria de configuração eletrônica foi ampliado com outros atributos e, no próprio kaggle do dataset original, os df de treino e teste já estavam separados. 
 
 - **dados_teste e dados_treino:** São os datasets utilizados para treino e teste da rede neural.
-- **cod_izaque.py:** Código desenvolvido pelos membros para tratamento de dados
+- **funcoes_metal_organic_predict:** Código desenvolvido pelos membros para tratamento de dados
 - **MLP_MOFs.ipynb:**  Notebook oficial que apresenta a rede neural MLP com seu treinamento e teste, além da otimização de hiperparâmetros e tratamento de dados (Como redução de dimensionalidade com o VIF).
 - **merged_train_VIF.csv:** Dataset que concatenou os datasets de treino RAC e Finger já tratados com o VIF, esse dataset foi feito com o intuito de aumentar a quantidade de atributos necessários para previsão de temperatura e tempo.
 
