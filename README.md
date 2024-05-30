@@ -73,3 +73,4 @@ Podemos observar que, ao utilizar de uma rede neural do tipo MLP para prever a t
 [21] Lightning Documentation, Available at: https://lightning.ai/docs/pytorch/stable/. Acessed on: 20 may 2024 <br>
 [22] Pytorch Discussion, available at: https://discuss.pytorch.org/t/how-to-create-mlp-model-with-arbitrary-number-of-hidden-layers/13124. Acessed on: 20 may 2024<br>
 [23] sklearn Mean squared error, available at: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html Acessed on: 27 may 2024<br> 
+[24] Filtrar Linhas do Pandas por uma lista. Disponível em: https://pt.stackoverflow.com/questions/309037/filtrar-linhas-no-pandas-por-uma-lista.<br>
