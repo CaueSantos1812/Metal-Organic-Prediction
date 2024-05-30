@@ -32,7 +32,7 @@ A estrutura desse repositório é em partes complexa, visto que o dataset utiliz
 - **pandas:** Biblioteca para tratamento e anBálise de dados
 - **optuna:** Biblioteca usada para otimização de hiperparâmetros
 - **numpy:** Biblioteca usada para criar arrays
-- **cod_izaque:** Import de funções para tratamento de dados
+- **funcoes_metal_organic_predict:** Import de funções para tratamento de dados
 - **rdkit:** Biblioteca usada para retirar informações e propriedades dos MOFs
 - **sklearn:** Biblioteca usada para tratamento de dados, como split de dados e normalização
 - **torch:** Biblioteca utilizada para criação do modelo de NN
