@@ -62,9 +62,14 @@ Podemos observar que, ao utilizar de uma rede neural do tipo MLP para prever a t
 [10] Cassar, Daniel Roberto. Notebook 2.1: Tipos de Dados. <br>
 [11] Cassar, Daniel Roberto. Notebook 5.3: PyThorch Lightning. <br>
 [12] Cassar, Daniel Roberto. Notebook 8: Seleção de Atributos e redução de dimensionalidade. <br>
-[13] PYTHON. Pickle — Python object serialization. Available at: https://docs.python.org/pt-br/3/library/pickle.html. Accessed on: 27 May 2024. <br>
+[13] KAGGLE. Rac predicts temperature using LSTM. Available at: https://www.kaggle.com/code/marquis03/rac-predicts-temperature-using-lstm. Accessed on: 19 May 2024. <br>
 [14] SNRR, Randall Q.; COLÓN, Yamil J.; GÓMEZ-GUALDRÓN, Diego A. Topologically Guided, Automated Construction of Metal−Organic Frameworks and Their Evaluation for Energy-Related Applications. ACS, 2017. <br>
-[15] BUCIOR, Benjamin J.; ROSEN, Andrew S.; HARANCZYK, Maciej; YAO, Zhenpeng; ZIEBEL, Michael E.; FARHA, Omar K.; HUPP, Joseph T.; SIEPMANN, J. Ilja; ASPURU-GUZIK, Alan; SNRR, Randall Q. Identification Schemes for Metal−Organic Frameworks To Enable Rapid Search and Cheminformatics Analysis. ACS, 2019. <br>
-[16] Andrej Karpathy. 2023. Playlist de vídeos. Disponível em: https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ. Acesso em: 20 maio 2024. <br>
-[17] Lightning Documentation, Available at: https://lightning.ai/docs/pytorch/stable/. Acessed on: 20 may 2024 <br>
-[18] Pytorch Discussion: https://discuss.pytorch.org/t/how-to-create-mlp-model-with-arbitrary-number-of-hidden-layers/13124. Acessed on: 20 may 2024<br>
+[15] BUCIOR, Benjamin J.; ROSEN, Andrew S.; HARANCZYK, Maciej; YAO, Zhenpeng; ZIEBEL, Michael E.; FARHA, Omar K.; HUPP, Joseph T.; SIEPMANN, J. Ilja; ASPURU-GUZIK, Alan; SNRR, Randall Q. Identification Schemes for Metal−Organic Frameworks To Enable Rapid Search and Cheminformatics Analysis. ACS, 2019. <br>
+[16] Andrej Karpathy. 2023. Playlist de vídeos. Disponível em: https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ. Acesso em: 20 maio 2024.<br>
+[17] FOR_CODE. Curso: [Import rdkit]. Disponível em: https://www.youtube.com/watch?v=CEyB3RvCfCI&list=PLSL3Gm4CBwHGWufaMHq3y8pN7KvbZzm1W.<br>
+[18] Knasmueller, Bernhard. Chemistry with Python - an Introduction to RDKit. Disponível em: https://www.youtube.com/watch?v=9Z9XM9xamDU.<br>
+[19] MACHINE LEARNING IN CHEMISTRY FROM SCRATCH. Calculating Molecular Descriptors using RDKit and Mordred. Disponível em: https://www.youtube.com/watch?v=9i9SY6Nd1Zw&t=974s. <br>
+[20] RDKit: Open-Source Cheminformatics Software. Disponível em: https://www.rdkit.org. <br>
+[21] Lightning Documentation, Available at: https://lightning.ai/docs/pytorch/stable/. Acessed on: 20 may 2024 <br>
+[22] Pytorch Discussion, available at: https://discuss.pytorch.org/t/how-to-create-mlp-model-with-arbitrary-number-of-hidden-layers/13124. Acessed on: 20 may 2024<br>
+[23] sklearn Mean squared error, available at: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html Acessed on: 27 may 2024<br> 
